@@ -1,3 +1,5 @@
+![alt text](https://github.com/christianbmartinez/chattrapp/blob/main/chattrapp.jpg)
+
 # What's this?
 
 An anonymous chatting application that uses chatgpt.
