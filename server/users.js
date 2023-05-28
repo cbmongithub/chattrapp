@@ -6,8 +6,8 @@ const addUser = ({ id, name, room }) => {
 
   const existingUser = users.find((user) => user.room === room && user.name === name);
 
-  if(!name || !room) return { error: 'Username and room are required.' };
-  if(existingUser) return { error: 'Username is taken.' };
+  if(!name || !room) return { error: 'Username and room are required fields.' };
+  if(existingUser) return { error: 'This username has already began to chattr.' };
 
   const user = { id, name, room };
 

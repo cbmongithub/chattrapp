@@ -2,9 +2,15 @@
   display: flex;
   flex-direction: column;
   margin-left: 100px;
-  color: white;
+  color: #111;
   height: 60%;
+  width: 20rem;
   justify-content: space-between;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 50, 0.1) 0px 16px 32px,
+    rgba(0, 0, 0, 0.07) 0px 6px 16px;
 }
 
 .activeContainer {
@@ -16,6 +22,10 @@
 .activeItem {
   display: flex;
   align-items: center;
+}
+
+.activeItem img {
+  padding: 10px;
 }
 
 .activeContainer img {

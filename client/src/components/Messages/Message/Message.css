@@ -1,7 +1,7 @@
 .messageBox {
-  background: #F3F3F3;
-  border-radius: 20px;
-  padding: 5px 20px;
+  background: #f9f9f9;
+  border-radius: 15px;
+  padding: 0px 20px;
   color: white;
   display: inline-block;
   max-width: 80%;
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: flex-end;
   padding: 0 5%;
-  margin-top: 3px;
+  margin-top: 20px;
 }
 
 .sentText {
@@ -59,9 +59,9 @@
 }
 
 .backgroundBlue {
-  background: #2979FF;
+  background: #3588e8;
 }
 
 .backgroundLight {
-  background: #F3F3F3;
+  background: #f5f5f5;
 }

@@ -1,17 +1,21 @@
 .form {
   display: flex;
-  border-top: 2px solid #D3D3D3;
+  border-top: 2px solid #111;
+  height: 75px;
 }
 
 .input {
   border: none;
-  border-radius: 0;
-  padding: 5%;
+  border-bottom-left-radius: 5px;
+  padding: 0px 25px;
   width: 80%;
   font-size: 1.2em;
+  background: #fff;
 }
 
-input:focus, textarea:focus, select:focus{
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
 }
 
@@ -19,9 +23,15 @@ input:focus, textarea:focus, select:focus{
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #2979FF;
+  background: #111;
+  cursor: pointer;
   padding: 20px;
   display: inline-block;
   border: none;
+  border-bottom-right-radius: 5px;
   width: 20%;
+}
+
+.sendButton:hover {
+  background: #000;
 }
